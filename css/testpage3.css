@@ -1,0 +1,410 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+
+
+body {
+	max-width: 100%
+}
+
+/************************************************************************
+Tiny Hover Button for menu to appear
+*************************************************************************/
+
+#inside {
+	position: fixed;
+	bottom: 27.5px;
+	left: 27.5px;
+	height: 15px;
+	width: 15px;
+	border-radius: 0px 10px;
+	background-color: black;
+	z-index: 2;
+
+}
+#menubutton {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	height: 50px;
+	width: 50px;
+	border: 5px solid white;
+	border-radius: 10px 20px;
+	background-color: red;
+	cursor: pointer;
+	z-index: 100;
+
+}
+
+/************************************************************************
+Created to have amenu pop up when hover over menubutton and also when hovering over amenu
+*************************************************************************/
+
+#menubutton:hover + #amenu {
+	display: block;
+}
+
+#amenu:hover {
+	display: block;
+}
+
+/************************************************************************
+Main Menu for Links to Music
+*************************************************************************/
+
+
+#amenu {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	height: 600px;
+	width:90%;
+	border-radius: 80px 40px;
+	background-color: black;
+	
+}
+
+
+/************************************************************************
+Links inside Menu Container
+*************************************************************************/
+.musnav {
+	padding-top: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+.musnav a { 
+	position: relative;
+	text-align: center;
+	color: #444;
+	width: 51%;
+	display: inline-block;
+	z-index: 1;
+	
+	
+}
+
+#a:hover,#b:hover,#c:hover,#d:hover,#e:hover,#f:hover,#g:hover,#h:hover,#i:hover,#j:hover,
+#k:hover,#l:hover,#m:hover,#n:hover,#o:hover,#p:hover,#q:hover,#r:hover,#s:hover,#t:hover,
+#u:hover,#v:hover,#w:hover,#x:hover,#y:hover,#z:hover { 
+	background-color: red;
+	border:solid red 3px;
+}
+
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o,#p,#q,#r,#s,#t,#u,#v,#w,#x,#y,#z {
+	border-radius: 33%;
+}
+
+/*#sdiv a {
+	color: white
+}*/
+
+div [id$="div"] a{
+  color: white;
+
+}
+div [id$="songs"] a{
+  color: #555;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************
+///////////////// 	A LINK  /////////////////////////////////////////////	
+*************************************************************************/
+
+
+
+#a:hover + #adiv {
+	display:inline-block;
+}
+#adiv:hover{
+	display: inline-block;
+}
+
+
+#adiv{
+	border-radius: 10% 10% 0 0;
+	position: relative;
+	display: none;
+	margin-top: -20px;
+	height: 500px;
+	width: 49%;
+	color: white;
+	background-color: black;
+	float: right;
+	z-index: 2
+}
+
+#adiv a {
+	width: 100%;
+}
+
+
+
+
+										/************************************************************************
+										///////////////// 	Antonio Banderas LINK  /////////////////////////////////////////////	
+										*************************************************************************/
+										#ant:hover + #antsongs {
+										display: block;
+										}
+										#antsongs:hover{
+											display: block;
+										}
+
+										#antsongs {
+											position: relative;
+											display: none;
+											width:100%;
+											height: 300px;
+											z-index: 3
+										}
+
+
+
+
+
+
+
+
+
+/************************************************************************
+///////////////// 	F LINK  /////////////////////////////////////////////	
+*************************************************************************/
+#f:hover {
+
+}
+
+#f:hover + #fdiv {
+	display:inline-block;
+}
+#fdiv:hover{
+	display: inline-block;
+}
+
+
+#fdiv{
+	border-radius: 10% 10% 0 0;
+	position: relative;
+	display: none;
+	margin-top: -95px;
+	height: 500px;
+	width: 49%;
+	color: white;
+	background-color: black;
+	float: right;
+	z-index: 2
+}
+
+#fdiv a {
+	width: 100%;
+}
+
+
+										/************************************************************************
+										///////////////// 	FAITH NO More LINK  /////////////////////////////////////////////	
+										*************************************************************************/
+										#faith:hover + #faithsongs {
+										display: block;
+										}
+										#faithsongs:hover{
+											display: block;
+										}
+
+										#faithsongs {
+											position: relative;
+											display: none;
+											width:100%;
+											height: 300px;
+											z-index: 3
+										}
+
+										
+/************************************************************************
+///////////////// 	H LINK  /////////////////////////////////////////////	
+*************************************************************************/
+#h:hover {
+
+}
+
+#h:hover + #hdiv {
+	display:inline-block;
+}
+#hdiv:hover{
+	display: inline-block;
+}
+
+
+#hdiv{
+	border-radius: 10% 10% 0 0;
+	position: relative;
+	display: none;
+	margin-top: -130px;
+	height: 500px;
+	width: 49%;
+	color: white;
+	background-color: black;
+	float: right;
+	z-index: 2
+}
+#hdiv a {
+	width: 100%;
+}										
+
+
+
+
+										/************************************************************************
+										///////////////// 	HUGH LAURIE  /////////////////////////////////////////////	
+										*************************************************************************/
+										#hughlaurie:hover + #hughlauriesongs {
+										display: block;
+										}
+										#hughlauriesongs:hover{
+											display: block;
+										}
+
+										#hughlauriesongs {
+											position: relative;
+											display: none;
+											width:100%;
+											height: 300px;
+											z-index: 34
+										}
+
+/************************************************************************
+///////////////// 	S LINK  /////////////////////////////////////////////	
+*************************************************************************/
+#s:hover {
+
+}
+
+#s:hover + #sdiv {
+	display:inline-block;
+}
+#sdiv:hover{
+	display: inline-block;
+}
+
+
+#sdiv{
+	border-radius: 20% 20% 0 0;
+	position: relative;
+	display: none;
+	margin-top: -330px;
+	height: 500px;
+	width: 49%;
+	color: white;
+	background-color: black;
+	float: right;
+	z-index: 2
+}
+#sdiv a {
+	width: 100%;
+}
+
+									/************************************************************************
+									///////////////// 	Stone Temple Pilots /////////////////////////////////////////////	
+									*************************************************************************/
+									#stp:hover + #stpsongs {
+										display: block;
+									}
+									#stpsongs:hover{
+										display: block;
+									}
+
+									#stpsongs {
+										position: relative;
+										display: none;
+										width:100%;
+										height: 300px;
+										z-index: 3
+
+									}
+
+									/************************************************************************
+									///////////////// 	SoundGarden  /////////////////////////////////////////////	
+									*************************************************************************/
+									#soundgarden:hover + #soundgardensongs {
+										display: block;
+									}
+									#soundgardensongs:hover{
+										display: block;
+									}
+
+									#soundgardensongs {
+										position: relative;
+										display: none;
+										width:100%;
+										height: 300px;
+										z-index: 3
+
+									}
+
+
+/************************************************************************
+///////////////// 	Z LINK  /////////////////////////////////////////////	
+*************************************************************************/
+
+#z:hover {
+
+}
+
+#z:hover + #zdiv {
+	display:inline-block;
+}
+#zdiv:hover{
+	display: inline-block;
+}
+
+
+#zdiv{
+	position: relative;
+	display: none;
+	margin-top: -480px;
+	height: 500px;
+	width: 49%;
+	color: white;
+	background-color: red;
+	float: right;
+	z-index: 2
+}
+
+
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+body {
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight:300;
+    color: rgb(150,159,169);
+    line-height:1.5;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project {
+    background: #ff9b71;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 1.59%;
+    padding:8%;
+    box-shadow:0 3px 0 #e58c69;
+}
+
+.project p {
+    color: #fff;
+}
+
+.project a {
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 2px 0 rgba(0,0,0, 0.15);
+    text-decoration:none;
+    border: 1px solid lightgrey;
+    padding: 25%;
+}
+
+
+
+.col-4 a {
+    width: 1000px;
+    color: red;
+
+}

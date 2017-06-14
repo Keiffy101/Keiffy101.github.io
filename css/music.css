@@ -1,0 +1,169 @@
+/*Screen sizes 480 smallest to care about then 640 then 800*/
+
+/* so far best viewd as a width of about 550px as side bar 
+
+
+
+/***********************************************
+STYLE CLASSES *DEFAULT SCREEN 400px-640px*
+***********************************************/
+.musnav a {
+	display: inline-block;
+	margin-right: 5px;
+	color: red;
+}
+
+.song-headings h3 {
+	text-align: center;
+}
+
+.song-title {
+	color: black;
+	font-weight: 800;
+}
+.l {
+	display: block;
+	text-align: center;
+}
+
+.yt {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 30px;
+	height: 460px;
+	clear: both;
+}
+
+
+/*  .interstate {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 30px;
+	height: 460px;
+}
+
+.interstate-lyrics {
+	display: block;
+	text-align: center;
+}
+
+.gentle {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 30px;
+	height: 460px;
+}
+
+.gentle-lyrics {
+	max-width: 100%;
+	text-align: center;
+}
+
+.blackdays {
+
+display: block;
+max-width: 100%;
+margin: 0 auto 30px;
+height: 460px;	
+clear: both;
+}
+
+.blackdays-lyrics{
+	max-width: 100%;
+	text-align: center;
+	}
+ */
+
+
+
+/***********************************************
+FLOATED LYRIC COLUNMS - l1 & l2 are for lyric columns 1 and lyrics column 2
+***********************************************/
+.l1, .l2 {
+	width: 45%;
+}
+
+.l1 {
+	float: left;
+}
+
+.l2 {
+	float: right;
+}
+
+
+
+/* .gentle-lyrics1, .gentle-lyrics2 {
+	width: 45%;
+}
+
+.gentle-lyrics1 {
+	float: left;
+}
+
+.gentle-lyrics2 {
+	float: right;
+}
+
+.blackdays-lyrics1, blackdays-lyrics2 {
+	width: 45%;
+}
+
+.blackdays-lyrics1{
+	float: left;
+}
+
+
+blackdays-lyrics2{
+	float: right;
+}
+ */
+/***********************************************
+SCREENS ABOVE 641px but less than 800
+***********************************************/
+/* @media screen and (min-width: 660px) {
+	
+	.interstate {
+	display: block;
+	max-width: 45%;
+	float: left;
+	margin: 0 2.5% 0 0;
+	
+	} 
+
+} */
+
+
+
+
+/***********************************************
+SCREENS ABOVE 800px 
+***********************************************/
+/* @media screen and (min-width: 800px){
+
+.interstate {
+display: block;
+width: 45%;
+float: left;
+margin: 0 2.5% 0 0;
+height: 600px;}
+}
+ */
+
+/* @media screen and (max-width: 400px) {
+#interstate {
+	height: 200px;
+}
+
+#gentle {
+	height: 200px;
+}
+ */
+
+
+
+
+
+
+
+
